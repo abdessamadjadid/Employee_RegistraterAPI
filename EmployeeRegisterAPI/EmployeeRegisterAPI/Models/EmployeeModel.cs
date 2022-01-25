@@ -12,13 +12,13 @@ namespace EmployeeRegisterAPI.Models
         [Key]
         public int EmployeeID { get; set; }
 
-        [Column(TypeName = "navchar(50)")]
+        [Column(TypeName = "nvarchar(50)")]
         public string EmployeeName { get; set; }
 
-        [Column(TypeName = "navchar(50)")]
+        [Column(TypeName = "nvarchar(50)")]
         public string Occupation { get; set; }
 
-        [Column(TypeName = "navchar(50)")]
+        [Column(TypeName = "nvarchar(50)")]
         public string ImageName { get; set; }
 
 
